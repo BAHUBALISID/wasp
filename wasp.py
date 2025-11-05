@@ -84,11 +84,11 @@ class WaspTool:
         print("\x1b[38;5;201m" + "─" * 55 + "\x1b[0m")
         
         field_mapping = {
-            'name': 'SUBSCRIBER IDENTITY',
+            'name': 'TARGET IDENTITY',
             'fname': 'FATHERS IDENTITY', 
             'mobile': 'PRIMARY CONTACT',
             'alt': 'SECONDARY CONTACT',
-            'id': 'DOCUMENT ID',
+            'id': 'ADHAR ID',
             'address': 'GEOGRAPHIC LOCATION',
             'circle': 'SERVICE ZONE'
         }
